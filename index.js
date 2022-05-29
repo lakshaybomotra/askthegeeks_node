@@ -698,7 +698,7 @@ app.get("/contact", function (req, res) {
   res.end();
 });
 
-app.listen(port, function () {
+app.listen(process.env.PORT | port, function () {
   console.log(`Server Running on http://localhost:${port}`);
   // console.log('Server Running on Port ' + port);
 });
