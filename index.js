@@ -12,10 +12,10 @@ let date_ob = new Date();
 const mysql = require("mysql");
 
 const conn = mysql.createConnection({
-  host: "localhost",
-  user: "askthegeeksadmin",
-  password: "askthegeeks@21",
-  database: "askthegeeksdb",
+  host: "85.187.128.41",
+  user: "tikishph_askthegeeks",
+  password: "askthegeeks@27",
+  database: "tikishph_askthegeeks",
 });
 
 conn.connect(function (error) {
